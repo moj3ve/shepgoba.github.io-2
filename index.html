@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>shepgoba's website</title>
+    <style>
+		body {
+			background-color: white;
+			color: black;
+		}
+		.dark-mode {
+			background-color: rgb(12, 12, 12);
+			color: white;
+		}
+		.tweak-widget-depiction {
+			height: 100px;
+			border-radius: 8px;
+			margin: 5px;
+		}
+
+		.tweak-widget-header {
+			font-weight: 500;
+			font-size: 20px;
+		}
+
+
+		.tweak-widget-description-dark {
+			color: #cecece;
+		}
+
+		.widget {
+			/*background-color: rgb(237, 237, 237);*/
+			background-color: rgb(237, 237, 237);
+			padding: 10px;
+			margin: 8px 5px 5px 0px;
+			border-radius: 10px;
+			
+		}
+		.widget-dark {
+			/*background-color: rgb(237, 237, 237);*/
+			background-color: rgb(45, 45, 45);
+			padding: 10px;
+			margin: 8px 5px 5px 0px;
+			border-radius: 10px;
+			height: +20;
+		}
+		.widget-version {
+			position: absolute;
+			right: 15px;
+			top: 15px;
+			color: rgb(100, 100, 100);
+		}
+		.widget-version-dark {
+			position: absolute;
+			right: 15px;
+			top: 15px;
+			color: rgb(180, 180, 180);
+		}
+		.section-header {
+			font-weight: 600;
+			font-size: 24px;
+		}
+		#tweak-container-header {
+			margin-left: 8px;
+		}
+
+		.tab-content {
+			border-left: 1px solid #ddd;
+			border-right: 1px solid #ddd;
+			border-bottom: 1px solid #ddd;
+			padding: 10px;
+		}
+		.nav-tabs {
+			margin-bottom: 0;
+		}
+		.container {
+			padding-top: 10px;
+		}
+		/*.source-code {
+			position: absolute;
+			bottom:0;
+		}*/
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class=" page-header">
+		<h1 style="text-align:left;">shepgoba</h1><br>
+		<p class="section-header">About Me</p>
+		<p id="about-me-description">I'm a developer interested in programming iOS jailbreak tweaks, emulators, and reverse engineering.</p>
+	  </div>
+	  <p class="section-header">iOS Tweak Showcase</p>
+      <div id="tweak-widget-container" class="row">
+        <div class="col-sm widget">
+			<p class="tweak-widget-header">SettingsWidgets</p>
+			<p class="tweak-widget-description">Add some nice looking widgets to the front page of the settings app.</p>
+			<p class="widget-version">v1.1.2</p>
+			<a class="source-code" href="https://github.com/shepgoba/SettingsWidgets">Source Code</a>
+        </div>
+        <div class="col-sm widget">
+			<p class="tweak-widget-header">BatteryHomeBar</p>
+			<p class="tweak-widget-description">Display the battery level on the Home Bar.</p>
+			<p class="widget-version">v1.3.1</p>
+			<a class="source-code" href="https://github.com/shepgoba/BatteryHomeBar">Source Code</a>
+		</div>
+	  </div>
+	  <div id="tweak-widget-container" class="row mb-4">
+        <div class="col-sm widget">
+			<p class="tweak-widget-header">PhotoInfo</p>
+			<p class="tweak-widget-description">Get the file size and resolution of a photo quickly.</p>
+			<p class="widget-version">v1.0</p>
+			<a class="source-code" href="https://github.com/shepgoba/PhotoInfo">Source Code</a>
+        </div>
+        <div class="col-sm widget">
+			<p class="tweak-widget-header">Remove3DOptions</p>
+			<p class="tweak-widget-description">Remove some options for using 3D touch on apps</p>
+			<p class="widget-version">v1.0</p>
+			<a class="source-code" href="https://github.com/shepgoba/Remove3DOptions">Source Code</a>
+		</div>
+	  </div>
+
+	  <p class="section-header">Other Projects</p>
+	  <div id="tweak-widget-container" class="row">
+        <div class="col-sm widget">
+			<p class="tweak-widget-header">zoomb0i</p>
+			<p class="tweak-widget-description">A WIP GameBoy emulator written in C and SDL2 by me and <a href="https://github.com/qwertyuiop1379">qwertyuiop1379</a></p>
+			<p class="widget-version">v0.1~alpha</p>
+			<a class="source-code" href="https://github.com/shepgoba/PhotoInfo">Source Code</a>
+        </div>
+	  </div>
+	</div>
+
+    <!-- <script src="tweaks.js"></script>
+    <script>
+		(function() {
+			console.log(tweakData);
+			for (let entry in tweakData) {
+				let widgetContainer = document.getElementById("tweak-widget-container");
+
+				let widgetElement = document.createElement("div");
+				widgetElement.className = "tweak-widget";
+				widgetElement.innerHTML = tweakData[entry]["tweak-name"] + "<br>" + tweakData[entry]["description"];
+				
+				widgetContainer.appendChild(widgetElement);
+			}
+		})();
+	</script> -->
+	<footer class="page-footer font-small blue pt-4">
+		<div class="col text-center">
+			<button class="btn btn-primary" style="text-align: center;" onclick="toggleTheme();">Toggle Theme</button>
+		</div>
+		<div class="footer-copyright text-center py-3">Copyright © 2020 shepgoba</div>
+	</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script>
+		function toggleTheme() {
+			let element = document.body;
+			element.classList.toggle("dark-mode");
+
+			let widgets = document.getElementsByClassName("widget");
+			for (let widget of widgets) {
+				widget.classList.toggle("widget-dark");
+			}
+			let widgetsVersionText = document.getElementsByClassName("widget-version");
+			for (let item of widgetsVersionText) {
+				item.classList.toggle("widget-version-dark");
+			}
+		}
+
+	</script>
+</body>
+</html>
