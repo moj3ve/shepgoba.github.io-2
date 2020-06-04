@@ -96,13 +96,20 @@
   </head>
   <body>
     <div class="container">
-      <div class=" page-header">
-		<h1 style="text-align:left;">shepgoba</h1><br>
-		<p class="section-header">About Me</p>
-		<p>I'm a developer interested in programming iOS jailbreak tweaks, emulators, and reverse engineering.</p>
-	  </div>
-	  <p class="section-header">iOS Tweak Showcase</p>
-      <div id="tweak-widget-container" class="row ml-1 mr-1">
+      	<div class="page-header">
+			<h1 style="text-align:left;">shepgoba</h1><br>
+			<p class="section-header">About Me</p>
+			<p>I'm a developer interested in programming iOS jailbreak tweaks, emulators, and reverse engineering.</p>
+			<p class="section-header">Contact Me</p>
+			<img width="32" src="img/discord.svg">shepgoba#0001
+			<br>
+			<img width="32" src="img/twitter.svg">@shepgoba
+			<br>
+			<br>
+		</div>
+		
+		<p class="section-header">iOS Tweak Showcase</p>
+		<div id="tweak-widget-container" class="row ml-1 mr-1">
         <div class="col-sm widget">
 			<p class="tweak-widget-header">SettingsWidgets</p>
 			<p class="tweak-widget-description">Add some nice looking widgets to the front page of the settings app.</p>
@@ -129,7 +136,14 @@
 			<p class="widget-version">v1.0</p>
 			<a class="source-code" href="https://github.com/shepgoba/Remove3DOptions">Source Code</a>
 		</div>
-	  </div>
+	</div>
+	<div class="row align-items-center ml-1 mr-1">
+		<div class="col"></div>
+		<div class="col" style="text-align:center;">
+			<button type="button" class="btn btn-primary" onclick="toggleAllPackages();">All Packages</button>
+		</div>
+		<div class="col"></div>
+	</div>
 
 	  <p class="section-header">Other Projects</p>
 	  <div id="tweak-widget-container" class="row ml-1 mr-1">
@@ -137,7 +151,7 @@
 			<p class="tweak-widget-header">zoomb0i</p>
 			<p class="tweak-widget-description">A WIP GameBoy emulator written in C and SDL2 by me and <a href="https://github.com/qwertyuiop1379">qwertyuiop1379</a></p>
 			<p class="widget-version">v0.1~alpha</p>
-			<a class="source-code" href="https://github.com/shepgoba/PhotoInfo">Source Code</a>
+			<a class="source-code">Source Code (coming soon)</a>
         </div>
 	  </div>
 	</div>
@@ -157,6 +171,11 @@
 			}
 		})();
 	</script> -->
+	<script>
+		function toggleAllPackages() {
+			alert("coming soon!");
+		}
+	</script>
 	<footer class="page-footer font-small blue pt-4">
 		<div class="footer-copyright text-center py-3">Copyright © 2020 shepgoba</div>
 	</footer>
