@@ -366,6 +366,38 @@ Description: Bring good looking widgets to the front page of settings!
 Author: shepgoba
 Name: SettingsWidgets
 
+Package: com.shepgoba.settingswidgets
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 364
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shepgoba.settingswidgets_1.2_iphoneos-arm.deb
+Size: 55242
+MD5sum: 5e7052587157c317e093caac45e7c66c
+SHA1: abaa2d85eb9603e06a08b0dbc54e7226c3125318
+SHA256: 5c5e294b5bf328b6defd63eb33ad3aa5992e0380bff8b01f2f393f241045a46d
+Section: Tweaks
+Description: Bring good looking widgets to the front page of settings!
+Author: shepgoba
+Name: SettingsWidgets
+
+Package: com.shepgoba.spotlightdelete
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 224
+Depends: mobilesubstrate
+Filename: debs/com.shepgoba.spotlightdelete_1.0_iphoneos-arm.deb
+Size: 6518
+MD5sum: 0bdeed823dfd9df2faa91662bd097a5c
+SHA1: 69681789b5620aacbc96aa5662578bb30f42b681
+SHA256: ee38f070c1570017273b6710b743d960375ea3d5f84106afb63881c89fb71cf6
+Section: Tweaks
+Description: Delete apps in spotlight search.
+Author: shepgoba
+Name: SpotlightDelete
+
 Package: org.thebigboss.libcolorpicker
 Version: 1.6.5
 Architecture: iphoneos-arm
