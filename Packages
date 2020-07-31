@@ -270,6 +270,22 @@ Description: Skip explore view on instagram
 Author: shepgoba
 Name: InstaSearch2
 
+Package: com.shepgoba.nightshiftmodule
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 180
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware (>= 11.0)
+Filename: debs/com.shepgoba.nightshiftmodule_1.0_iphoneos-arm.deb
+Size: 13916
+MD5sum: 52c12e1da6221851ea6bb717a9b56d26
+SHA1: 32c221224840b58ad9580873a7dedf59ec9c7028
+SHA256: f4fd6bb192509c5f2685875daeb473c12f79d806b96a6c24c385199dd93281ca
+Section: Control Center (Modules)
+Description: Change Night Shift from the control center.
+Author: shepgoba
+Name: Night Shift Module
+
 Package: com.shepgoba.notifyheaders
 Version: 1.1.1
 Architecture: iphoneos-arm
