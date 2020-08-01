@@ -286,6 +286,22 @@ Description: Change Night Shift from the control center.
 Author: shepgoba
 Name: Night Shift Module
 
+Package: com.shepgoba.nightshiftmodule
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 180
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware (>= 11.0)
+Filename: debs/com.shepgoba.nightshiftmodule_1.0.1_iphoneos-arm.deb
+Size: 18288
+MD5sum: 78cd63a775d905838e7e4744787369ff
+SHA1: bb9a7e97de3128b1a5084aeb4076eab96b418f15
+SHA256: e9b8b6274784ec50ff2e5bedb8440dbe8d29f246913bb99001292ace25930ecc
+Section: Control Center (Modules)
+Description: Change Night Shift from the control center.
+Author: shepgoba
+Name: Night Shift Module
+
 Package: com.shepgoba.notifyheaders
 Version: 1.1.1
 Architecture: iphoneos-arm
