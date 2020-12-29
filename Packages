@@ -1,3 +1,18 @@
+Package: com.shepgoba.appuninstall
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 212
+Filename: debs/com.shepgoba.appuninstall_0.1_iphoneos-arm.deb
+Size: 5248
+MD5sum: e70ab2e2d4c9c6e6240f93fef710b93d
+SHA1: da8e29b985d7d1ae298f6942d472f6c4df96fcde
+SHA256: c85b6a26550ec1c79e10da0f636e1930ad4385e48c3e987e4244797e7aa92300
+Section: System
+Description: Uninstall apps from the command line
+Author: shepgoba
+Name: AppUninstall
+
 Package: com.shepgoba.atkeyboard
 Version: 1.0
 Architecture: iphoneos-arm
