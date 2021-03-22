@@ -429,6 +429,22 @@ Description: Bring good looking widgets to the front page of settings!
 Author: shepgoba
 Name: SettingsWidgets
 
+Package: com.shepgoba.settingswidgets
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 472
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shepgoba.settingswidgets_1.2.1_iphoneos-arm.deb
+Size: 76288
+MD5sum: 65e510b658e3e49826e53f21998cba26
+SHA1: 323bedd8f038520a02e9a3a36110d2cf7b146456
+SHA256: 48dba47a17631308a5f7ef5a4710e0319c369a4954524e4d9434c99ee8e8d237
+Section: Tweaks
+Description: Bring good looking widgets to the front page of settings!
+Author: shepgoba
+Name: SettingsWidgets
+
 Package: com.shepgoba.spotlightdelete
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -444,6 +460,22 @@ Section: Tweaks
 Description: Delete apps in spotlight search.
 Author: shepgoba
 Name: SpotlightDelete
+
+Package: com.shepgoba.vpnlaunch
+Version: 0.1.2
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.shepgoba.vpnlaunch_0.1.2_iphoneos-arm.deb
+Size: 4720
+MD5sum: a5fc93ab785cea122cc3c86978b18e2b
+SHA1: 13d26a867a5dd4b92a68e154019084c0f19aa725
+SHA256: 788227e2e6da8af1f0749080a91fa38da98e29f6047269e1216f777753f8d53a
+Section: Tweaks
+Description: Only launch an app if VPN is enabled.
+Author: shepgoba
+Name: VPNLaunch
 
 Package: org.thebigboss.libcolorpicker
 Version: 1.6.5
