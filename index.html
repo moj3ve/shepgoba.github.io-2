@@ -15,6 +15,31 @@
 			#self-description {
 				max-width: 500px;
 			}
+
+			a:link {
+				color: rgb(89, 167, 255);
+			}
+
+			a:visited {
+				color: rgb(89, 167, 255);
+			}
+
+			/* Dark Mode */
+			@media (prefers-color-scheme: dark) {
+				body {
+					background-color: rgb(31, 31, 31);
+					color: #eeeeee;
+				}
+			}
+
+			/* Ligyht Mode */
+			@media (prefers-color-scheme: light) {
+				body {
+					background-color: #eeeeee;
+					color: rgb(31, 31, 31);
+				}
+			}
+
 		</style>
 	</head>
 	<body>
